@@ -1,0 +1,255 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.screen-1 {
+    height:100vh;
+}
+.nav {
+    color:grey;
+    display:inline-flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 35px;
+    font-size: 1rem;
+    box-shadow: 0px 2px 30px 0px rgba(164, 164, 164, 0.669);
+}
+
+.nav-left {
+    margin: auto;
+    text-align: center;
+    width: 33.3%;
+}
+
+.nav-center {
+    text-align: center;
+    width: 33.3%;
+}
+
+.nav-right {
+    margin: auto;
+    text-align: center;
+    width: 33.3%;
+}
+
+#sm-logo {
+    height:30px;
+    width:30px;
+}
+
+#login-btn {
+    background:white;
+    border:0;
+}
+
+#logo {
+    height: 12.5vw;
+    width: 12.5vw;
+    margin: auto;
+}
+
+.fa {
+    color: rgb(0, 140, 255);
+}
+
+#logo-gif-div {
+    width: 100%;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    text-align: center;
+}
+
+.tag-line {
+    text-align: center;
+    font-size: 2.3vw;
+    font-style: bold;
+}
+
+#search-bar-div {
+    text-align: center;
+    margin: auto;
+    padding-top: 8.5vh;
+}
+
+#search {
+    height: 6.5vh;
+    width: 70vw;
+    border-radius: 30px 0 0 30px;
+    border-width: 0px;
+    margin-bottom: 4vh;
+    box-shadow: 3px 3px 10px 1px rgba(168, 168, 168, 0.71);
+}
+
+#search::placeholder {
+    padding-left: 10px;
+    font-size: 1.2rem;
+    margin: auto;
+    padding-top: 2px;
+}
+
+#feel-img {
+    height: 20px; 
+    margin: auto;
+}
+
+#start-btn {
+    padding : 7px 10px 7px 10px;
+    border : 0;
+    border-radius: 3px;
+    background-color: rgb(237, 237, 237);
+    margin: auto;
+    font-size: 1.2rem;
+    color: rgb(103, 103, 103);
+}
+
+#start-btn-div {
+    text-align: center;
+    margin: auto;
+
+}
+
+p {
+    margin:0;
+    padding :10px;
+}
+
+.img1 {
+    height: 30vw;
+    width: 35ww;
+    margin:auto;
+    text-align: auto;
+}
+
+.screen-2 {
+    width: 100%;
+    display: inline-flex;
+}
+
+.section-1 {
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    padding-left: 5vw;
+    padding-right: 2vw;
+}
+.section-2{
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    padding-right:5vw;
+}
+
+@media (max-width: 800px) {
+    .screen-2 {
+        width: 100%;
+        display: block;
+    }
+    .section-1 {
+        margin:auto;
+        text-align: center;
+        width: 100%;
+        padding-left: 5vw;
+    }
+    .section-2{
+        margin:auto;
+        text-align: center;
+        width: 100%;
+        padding-right:5vw;
+    }
+}
+
+#p1 {
+    font-size :3em;
+    font-weight: bold;
+    color: rgb(64, 64, 64);
+    padding: 0 0 13px 0;
+}
+
+.p2 {
+    font-size: 2em;
+    color: rgb(64, 64, 64);
+    padding: 0 0 10px 0;
+}
+
+.p3 {
+    font-size: 1.1em;
+    padding: 0 0 5px 0;
+}
+
+.p4 {
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding: 0 0 2px 0;
+}
+
+.screen-3 {
+    padding-top: 20vh;
+    width:100%;
+    padding-bottom: 20vh;
+}
+
+.image-2 {
+    width:100%
+}
+
+.mobile-img {
+    height: 500px;
+}
+
+@media only screen and (max-width: 760px) {
+    .mobile-img {
+      height: 365px
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    .mobile-img {
+      height: 420px
+    }
+}
+
+.screen-4 {
+    width: 100%;
+    display: inline-flex;
+    padding-bottom: 20vh;
+}
+
+.india-img {
+    width: 43vw;
+    padding-bottom: 30px;
+}
+
+#sec-right {
+    padding: 0px;
+}
+
+.download-img {
+    width:200px;
+    height: 80px;
+}
+
+.socials {
+    text-align: center;
+    font-size:2rem;
+    color: rgb(70, 70, 70);
+    margin:auto;
+}
+
+.last-line {
+    text-align:center;
+    color: rgb(70, 70, 70);
+    padding: 10px 0 15px 0;
+    font-size: 0.9rem;
+    margin:auto;
+}
+
+.foot {
+    padding-right:20px;
+}
+
+.icon {
+    padding-right:10px;
+}
